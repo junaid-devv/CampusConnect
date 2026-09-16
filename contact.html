@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — CampusConnect</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">CU</div>
+        <h1>CampusConnect<span>COMSATS University</span></h1>
+      </a>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <h2>Contact Us</h2>
+    <p>Have a question or enquiry? Get in touch with COMSATS University through the form below or visit us in person.</p>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <div class="contact-wrapper">
+
+      <!-- Contact Information -->
+      <div class="contact-info">
+        <h3>Get In Touch</h3>
+
+        <div class="contact-item">
+          <div class="icon">📍</div>
+          <div>
+            <h4>Address</h4>
+            <p>COMSATS University Islamabad<br>Park Road, Chak Shahzad<br>Islamabad 45550, Pakistan</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+92-51-9247000<br>+92-51-9247001 (Admissions)</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <p>info@comsats.edu.pk<br>admissions@comsats.edu.pk</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon">🕐</div>
+          <div>
+            <h4>Office Hours</h4>
+            <p>Monday – Friday: 8:00 AM – 4:00 PM<br>Saturday: 9:00 AM – 1:00 PM<br>Sunday: Closed</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon">🌐</div>
+          <div>
+            <h4>Website</h4>
+            <p><a href="https://www.comsats.edu.pk" target="_blank" style="color: var(--primary-light);">www.comsats.edu.pk</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Student Enquiry Form -->
+      <div class="enquiry-form">
+        <h3>Student Enquiry Form</h3>
+        <form id="enquiryForm" novalidate>
+
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name">
+            <span class="error-msg"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address">
+            <span class="error-msg"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <select id="subject" name="subject">
+              <option value="">-- Select a Subject --</option>
+              <option value="admissions">Admissions Enquiry</option>
+              <option value="courses">Course Information</option>
+              <option value="financial">Financial Aid</option>
+              <option value="departments">Department Information</option>
+              <option value="services">Student Services</option>
+              <option value="other">Other</option>
+            </select>
+            <span class="error-msg"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" placeholder="Type your message here..." rows="5"></textarea>
+            <span class="error-msg"></span>
+          </div>
+
+          <button type="submit" class="btn-submit">Submit Enquiry</button>
+          <div class="success-message"></div>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>CampusConnect</h3>
+        <p>A mini web portal for COMSATS University, providing quick access to departments, courses, and student services.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="services.html">Student Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Info</h3>
+        <p>📍 Park Road, Chak Shahzad, Islamabad</p>
+        <p>📞 +92-51-9247000</p>
+        <p>✉️ info@comsats.edu.pk</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 CampusConnect — COMSATS University. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
